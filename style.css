@@ -17,3 +17,8 @@ h1 {
     color: #a38135;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
+
+h5, p {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
