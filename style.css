@@ -22,3 +22,42 @@ h5, p {
     color: #ffffff;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
+
+.card-body h5, .card-body p  {
+    color: #a38135;
+    text-shadow: none;
+}
+
+.card-footer, .modal-footer {
+    position: relative;
+    height: 75px;
+
+
+}
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a38135;
+}
+.modal-title {
+    color: #a38135;
+    text-shadow: none;
+}
+
+.btn-secondary {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+}
+
+.modal-header {
+position: relative;
+}
+
+.btn-close {
+    position: absolute;
+    top: 60%;
+    left: 90%;
+}
