@@ -68,9 +68,14 @@ position: relative;
     position: absolute;
     top: 60%;
     left: 90%;
-    color: blue;
+
 }
 .btn-primary {
     background-color: #826676;
     border-color: #826676;
+}
+
+.btn-primary:hover {
+    background-color: #8c738a;
+    border-color: #8c738a;
 }
