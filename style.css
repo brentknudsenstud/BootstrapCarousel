@@ -10,6 +10,9 @@ html, body {
     
 }
 
+.carousel {
+    margin: 20px 0;
+}
 h1 {
     margin: 25px auto;
     width: 80%;
@@ -23,8 +26,13 @@ h5, p {
     text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
-.card-body h5, .card-body p  {
+.card-body h5 {
     color: #a38135;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.card-body p {
+    color: #8c738a;
     text-shadow: none;
 }
 
@@ -60,4 +68,9 @@ position: relative;
     position: absolute;
     top: 60%;
     left: 90%;
+    color: blue;
+}
+.btn-primary {
+    background-color: #826676;
+    border-color: #826676;
 }
